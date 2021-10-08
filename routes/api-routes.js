@@ -3,6 +3,8 @@ const db = require('../models');
 
 // Use 'db.Workout' to refernce the model and use the methods provided with the model to execute database operatioms
 
+//.get, .post, .put, .delete
+
 router.post('/api/workouts', (req, res) => {
 
   db.Workout.create(req.body)
@@ -65,7 +67,7 @@ router.get('/api/workouts/range', (req, res) => {
 
     },
   ])
-    .sort({ _id: -1 })
+    .sort({ _id: -1 }) //sorting all data 
     .limit(7)
     .then((dbWorkouts) => {
       console.log(dbWorkouts);
