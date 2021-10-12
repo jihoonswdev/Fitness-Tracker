@@ -18,14 +18,16 @@
 ## Installation:
 1. Clone repository.
 2. Check in routes/api-routes and comment in block of code if you want the database to be prepopulated with dummy values.
-3. npm install
-4. node server.js
+3. `npm install`
+4. `node server.js`
     * Running seeders/seed.js is optional to have a prepopulated database.
 
 ## Usage:
-* To be added ()
+* Homepage displaying last workout
+* Creating Workouts
+* Week's Summary
 
-* View walk through video here: ()
+* View walk through video here: (https://watch.screencastify.com/v/8Dw4kjKRwU1vqtSAgNyU)
 
 ## License:
 * This project is licensed under `MIT`
